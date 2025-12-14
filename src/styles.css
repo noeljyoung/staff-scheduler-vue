@@ -1,0 +1,21 @@
+body { margin: 0; font-family: system-ui, sans-serif; }
+button, input, select { font: inherit; }
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  background: white;
+}
+
+.grid { display: grid; gap: 8px; }
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid #ddd;
+}
+.badge.error { border-color: #c00; color: #c00; }
+.badge.warn { border-color: #b60; color: #b60; }
